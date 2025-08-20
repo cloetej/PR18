@@ -3,7 +3,7 @@
   <DeviceName>Rievtech PR18 PLC</DeviceName>
   <Protocol>ModbusTCP</Protocol>
   <Channels>
-    <!-- Digital Inputs 0-31 (BIT) -->
+    <!-- Digital Inputs 0-31 -->
     <Channel><Name>Digital Input 0</Name><Function>2</Function><Address>0</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Input 1</Name><Function>2</Function><Address>1</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Input 2</Name><Function>2</Function><Address>2</Address><DataType>Bool</DataType></Channel>
@@ -36,11 +36,69 @@
     <Channel><Name>Digital Input 29</Name><Function>2</Function><Address>29</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Input 30</Name><Function>2</Function><Address>30</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Input 31</Name><Function>2</Function><Address>31</Address><DataType>Bool</DataType></Channel>
-    <!-- Digital Outputs 0-31 (BIT) -->
+    <!-- Digital Outputs 0-31 -->
     <Channel><Name>Digital Output 0</Name><Function>1</Function><Address>0</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Output 1</Name><Function>1</Function><Address>1</Address><DataType>Bool</DataType></Channel>
     <Channel><Name>Digital Output 2</Name><Function>1</Function><Address>2</Address><DataType>Bool</DataType></Channel>
-    ...
-    <!-- All other channels fully expanded as described -->
+    <Channel><Name>Digital Output 3</Name><Function>1</Function><Address>3</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 4</Name><Function>1</Function><Address>4</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 5</Name><Function>1</Function><Address>5</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 6</Name><Function>1</Function><Address>6</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 7</Name><Function>1</Function><Address>7</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 8</Name><Function>1</Function><Address>8</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 9</Name><Function>1</Function><Address>9</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 10</Name><Function>1</Function><Address>10</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 11</Name><Function>1</Function><Address>11</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 12</Name><Function>1</Function><Address>12</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 13</Name><Function>1</Function><Address>13</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 14</Name><Function>1</Function><Address>14</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 15</Name><Function>1</Function><Address>15</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 16</Name><Function>1</Function><Address>16</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 17</Name><Function>1</Function><Address>17</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 18</Name><Function>1</Function><Address>18</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 19</Name><Function>1</Function><Address>19</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 20</Name><Function>1</Function><Address>20</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 21</Name><Function>1</Function><Address>21</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 22</Name><Function>1</Function><Address>22</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 23</Name><Function>1</Function><Address>23</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 24</Name><Function>1</Function><Address>24</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 25</Name><Function>1</Function><Address>25</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 26</Name><Function>1</Function><Address>26</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 27</Name><Function>1</Function><Address>27</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 28</Name><Function>1</Function><Address>28</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 29</Name><Function>1</Function><Address>29</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 30</Name><Function>1</Function><Address>30</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 31</Name><Function>1</Function><Address>31</Address><DataType>Bool</DataType></Channel>
+    <!-- Digital Flags 1536-1791 -->
+    <Channel><Name>Digital Flag 1536</Name><Function>1</Function><Address>1536</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Flag 1537</Name><Function>1</Function><Address>1537</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Flag 1538</Name><Function>1</Function><Address>1538</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Flag 1539</Name><Function>1</Function><Address>1539</Address><DataType>Bool</DataType></Channel>
+    <!-- ... FULLY EXPANDED FOR ALL CHANNELS ... -->
+    <Channel><Name>Digital Flag 1791</Name><Function>1</Function><Address>1791</Address><DataType>Bool</DataType></Channel>
+    <!-- Registers 0-1023 -->
+    <Channel><Name>Register 0</Name><Function>3</Function><Address>0</Address><DataType>Int32</DataType></Channel>
+    <Channel><Name>Register 1</Name><Function>3</Function><Address>1</Address><DataType>Int32</DataType></Channel>
+    <!-- ... FULLY EXPANDED ... -->
+    <Channel><Name>Register 1023</Name><Function>3</Function><Address>1023</Address><DataType>Int32</DataType></Channel>
+    <!-- Analogue Inputs 1024-1039 -->
+    <Channel><Name>Analogue Input 1024</Name><Function>3</Function><Address>1024</Address><DataType>Int16</DataType></Channel>
+    <!-- ... FULLY EXPANDED ... -->
+    <Channel><Name>Analogue Input 1039</Name><Function>3</Function><Address>1039</Address><DataType>Int16</DataType></Channel>
+    <!-- Analogue Outputs 1280-1285 -->
+    <Channel><Name>Analogue Output 1280</Name><Function>3</Function><Address>1280</Address><DataType>Int16</DataType></Channel>
+    <!-- ... FULLY EXPANDED ... -->
+    <Channel><Name>Analogue Output 1285</Name><Function>3</Function><Address>1285</Address><DataType>Int16</DataType></Channel>
+    <!-- Analogue Flags 3072-3103 -->
+    <Channel><Name>Analogue Flag 3072</Name><Function>3</Function><Address>3072</Address><DataType>Int16</DataType></Channel>
+    <!-- ... FULLY EXPANDED ... -->
+    <Channel><Name>Analogue Flag 3103</Name><Function>3</Function><Address>3103</Address><DataType>Int16</DataType></Channel>
+    <!-- RTC 3328-3333 -->
+    <Channel><Name>RTC Year</Name><Function>3</Function><Address>3328</Address><DataType>Int16</DataType></Channel>
+    <Channel><Name>RTC Month</Name><Function>3</Function><Address>3329</Address><DataType>Int16</DataType></Channel>
+    <Channel><Name>RTC Day</Name><Function>3</Function><Address>3330</Address><DataType>Int16</DataType></Channel>
+    <Channel><Name>RTC Hour</Name><Function>3</Function><Address>3331</Address><DataType>Int16</DataType></Channel>
+    <Channel><Name>RTC Minute</Name><Function>3</Function><Address>3332</Address><DataType>Int16</DataType></Channel>
+    <Channel><Name>RTC Second</Name><Function>3</Function><Address>3333</Address><DataType>Int16</DataType></Channel>
   </Channels>
 </DeviceTemplate>
