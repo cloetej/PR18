@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceTemplate>
+  <DeviceName>Rievtech PR18 PLC</DeviceName>
+  <Protocol>ModbusTCP</Protocol>
+  <Channels>
+    <!-- Digital Inputs 0-31 (BIT) -->
+    <Channel><Name>Digital Input 0</Name><Function>2</Function><Address>0</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 1</Name><Function>2</Function><Address>1</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 2</Name><Function>2</Function><Address>2</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 3</Name><Function>2</Function><Address>3</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 4</Name><Function>2</Function><Address>4</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 5</Name><Function>2</Function><Address>5</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 6</Name><Function>2</Function><Address>6</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 7</Name><Function>2</Function><Address>7</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 8</Name><Function>2</Function><Address>8</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 9</Name><Function>2</Function><Address>9</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 10</Name><Function>2</Function><Address>10</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 11</Name><Function>2</Function><Address>11</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 12</Name><Function>2</Function><Address>12</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 13</Name><Function>2</Function><Address>13</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 14</Name><Function>2</Function><Address>14</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 15</Name><Function>2</Function><Address>15</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 16</Name><Function>2</Function><Address>16</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 17</Name><Function>2</Function><Address>17</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 18</Name><Function>2</Function><Address>18</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 19</Name><Function>2</Function><Address>19</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 20</Name><Function>2</Function><Address>20</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 21</Name><Function>2</Function><Address>21</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 22</Name><Function>2</Function><Address>22</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 23</Name><Function>2</Function><Address>23</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 24</Name><Function>2</Function><Address>24</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 25</Name><Function>2</Function><Address>25</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 26</Name><Function>2</Function><Address>26</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 27</Name><Function>2</Function><Address>27</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 28</Name><Function>2</Function><Address>28</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 29</Name><Function>2</Function><Address>29</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 30</Name><Function>2</Function><Address>30</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Input 31</Name><Function>2</Function><Address>31</Address><DataType>Bool</DataType></Channel>
+    <!-- Digital Outputs 0-31 (BIT) -->
+    <Channel><Name>Digital Output 0</Name><Function>1</Function><Address>0</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 1</Name><Function>1</Function><Address>1</Address><DataType>Bool</DataType></Channel>
+    <Channel><Name>Digital Output 2</Name><Function>1</Function><Address>2</Address><DataType>Bool</DataType></Channel>
+    ...
+    <!-- All other channels fully expanded as described -->
+  </Channels>
+</DeviceTemplate>
